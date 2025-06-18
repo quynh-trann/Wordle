@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# ios101-project2-wordle-starter
-=======
+
 # Project 1 - Wordle
 
 Submitted by: Thuy Thuy Quynh Tran
@@ -89,13 +87,17 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+<div>
+    <a href="https://www.loom.com/share/3d89539253034f098a28a7ed6187c95b">
+    </a>
+    <a href="https://www.loom.com/share/3d89539253034f098a28a7ed6187c95b">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3d89539253034f098a28a7ed6187c95b-a84925bfe632d1a2-full-play.gif">
+    </a>
+  </div>
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had some difficulty uploading the code to Git and with the submission process. I'm a bit confused because we have two separate code files for Project 1 and Project 2.
 
 ## License
 
