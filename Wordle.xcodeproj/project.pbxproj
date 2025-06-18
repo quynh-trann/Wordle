@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		991CEC0629999E2A0095F025 /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0529999E2A0095F025 /* KeyboardCell.swift */; };
-		991CEC0829999ECD0095F025 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CEC0729999ECD0095F025 /* KeyboardController.swift */; };
+		6B5B85FB2E0221CB00816BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B85F12E0221CA00816BFC /* LaunchScreen.storyboard */; };
+		6B5B85FC2E0221CB00816BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B85EA2E0221CA00816BFC /* Assets.xcassets */; };
+		6B5B85FD2E0221CB00816BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5B85F42E0221CA00816BFC /* Main.storyboard */; };
+		6B5B85FE2E0221CB00816BFC /* BoardController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85EB2E0221CA00816BFC /* BoardController+Extensions.swift */; };
+		6B5B85FF2E0221CB00816BFC /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85EE2E0221CA00816BFC /* KeyboardController.swift */; };
+		6B5B86002E0221CB00816BFC /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85F82E0221CA00816BFC /* ViewController+Extensions.swift */; };
+		6B5B86012E0221CB00816BFC /* KeyboardController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85EF2E0221CA00816BFC /* KeyboardController+Extensions.swift */; };
+		6B5B86022E0221CB00816BFC /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85F62E0221CA00816BFC /* SettingsManager.swift */; };
+		6B5B86032E0221CB00816BFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85EC2E0221CA00816BFC /* Constants.swift */; };
+		6B5B86042E0221CB00816BFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85F52E0221CA00816BFC /* SceneDelegate.swift */; };
+		6B5B86052E0221CB00816BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85E92E0221CA00816BFC /* AppDelegate.swift */; };
+		6B5B86062E0221CB00816BFC /* LetterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85F22E0221CA00816BFC /* LetterCell.swift */; };
+		6B5B86072E0221CB00816BFC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85F72E0221CA00816BFC /* SettingsViewController.swift */; };
+		6B5B86082E0221CB00816BFC /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85F92E0221CA00816BFC /* WordGenerator.swift */; };
+		6B5B86092E0221CB00816BFC /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5B85ED2E0221CA00816BFC /* KeyboardCell.swift */; };
 		9953C05529A40AC700247C5B /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953C05429A40AC700247C5B /* BoardController.swift */; };
-		9953C05729A422C200247C5B /* WordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953C05629A422C200247C5B /* WordGenerator.swift */; };
-		996B84A8299990A900133037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84A7299990A900133037 /* AppDelegate.swift */; };
-		996B84AA299990A900133037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84A9299990A900133037 /* SceneDelegate.swift */; };
 		996B84AC299990A900133037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84AB299990A900133037 /* ViewController.swift */; };
-		996B84AF299990A900133037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B84AD299990A900133037 /* Main.storyboard */; };
-		996B84B1299990AA00133037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996B84B0299990AA00133037 /* Assets.xcassets */; };
-		996B84B4299990AA00133037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B84B2299990AA00133037 /* LaunchScreen.storyboard */; };
 		996B84BF299990AA00133037 /* WordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84BE299990AA00133037 /* WordleTests.swift */; };
 		996B84C9299990AA00133037 /* WordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84C8299990AA00133037 /* WordleUITests.swift */; };
 		996B84CB299990AA00133037 /* WordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84CA299990AA00133037 /* WordleUITestsLaunchTests.swift */; };
-		996B84D8299994A300133037 /* LetterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B84D7299994A300133037 /* LetterCell.swift */; };
-		99CF2AA629B0157B00B4973F /* KeyboardController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF2AA529B0157B00B4973F /* KeyboardController+Extensions.swift */; };
-		99CF2AA829B0168700B4973F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF2AA729B0168700B4973F /* Constants.swift */; };
-		99CF2AAA29B0172800B4973F /* BoardController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF2AA929B0172800B4973F /* BoardController+Extensions.swift */; };
-		99CF2AAC29B0198D00B4973F /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF2AAB29B0198D00B4973F /* ViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,28 +47,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		991CEC0529999E2A0095F025 /* KeyboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCell.swift; sourceTree = "<group>"; };
-		991CEC0729999ECD0095F025 /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		6B5B85E92E0221CA00816BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5B85EA2E0221CA00816BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5B85EB2E0221CA00816BFC /* BoardController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoardController+Extensions.swift"; sourceTree = "<group>"; };
+		6B5B85EC2E0221CA00816BFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6B5B85ED2E0221CA00816BFC /* KeyboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCell.swift; sourceTree = "<group>"; };
+		6B5B85EE2E0221CA00816BFC /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		6B5B85EF2E0221CA00816BFC /* KeyboardController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardController+Extensions.swift"; sourceTree = "<group>"; };
+		6B5B85F02E0221CA00816BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5B85F22E0221CA00816BFC /* LetterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCell.swift; sourceTree = "<group>"; };
+		6B5B85F32E0221CA00816BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5B85F52E0221CA00816BFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B5B85F62E0221CA00816BFC /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		6B5B85F72E0221CA00816BFC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6B5B85F82E0221CA00816BFC /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		6B5B85F92E0221CA00816BFC /* WordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
 		9953C05429A40AC700247C5B /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
-		9953C05629A422C200247C5B /* WordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGenerator.swift; sourceTree = "<group>"; };
 		996B84A4299990A900133037 /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		996B84A7299990A900133037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		996B84A9299990A900133037 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		996B84AB299990A900133037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		996B84AE299990A900133037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		996B84B0299990AA00133037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		996B84B3299990AA00133037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996B84B5299990AA00133037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996B84BA299990AA00133037 /* WordleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		996B84BE299990AA00133037 /* WordleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleTests.swift; sourceTree = "<group>"; };
 		996B84C4299990AA00133037 /* WordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		996B84C8299990AA00133037 /* WordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITests.swift; sourceTree = "<group>"; };
 		996B84CA299990AA00133037 /* WordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		996B84D7299994A300133037 /* LetterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCell.swift; sourceTree = "<group>"; };
-		99CF2AA529B0157B00B4973F /* KeyboardController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyboardController+Extensions.swift"; sourceTree = "<group>"; };
-		99CF2AA729B0168700B4973F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		99CF2AA929B0172800B4973F /* BoardController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoardController+Extensions.swift"; sourceTree = "<group>"; };
-		99CF2AAB29B0198D00B4973F /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B5B85FA2E0221CA00816BFC /* DO_NOT_MODIFY */ = {
+			isa = PBXGroup;
+			children = (
+				6B5B85E92E0221CA00816BFC /* AppDelegate.swift */,
+				6B5B85EA2E0221CA00816BFC /* Assets.xcassets */,
+				6B5B85EB2E0221CA00816BFC /* BoardController+Extensions.swift */,
+				6B5B85EC2E0221CA00816BFC /* Constants.swift */,
+				6B5B85ED2E0221CA00816BFC /* KeyboardCell.swift */,
+				6B5B85EE2E0221CA00816BFC /* KeyboardController.swift */,
+				6B5B85EF2E0221CA00816BFC /* KeyboardController+Extensions.swift */,
+				6B5B85F12E0221CA00816BFC /* LaunchScreen.storyboard */,
+				6B5B85F22E0221CA00816BFC /* LetterCell.swift */,
+				6B5B85F42E0221CA00816BFC /* Main.storyboard */,
+				6B5B85F52E0221CA00816BFC /* SceneDelegate.swift */,
+				6B5B85F62E0221CA00816BFC /* SettingsManager.swift */,
+				6B5B85F72E0221CA00816BFC /* SettingsViewController.swift */,
+				6B5B85F82E0221CA00816BFC /* ViewController+Extensions.swift */,
+				6B5B85F92E0221CA00816BFC /* WordGenerator.swift */,
+			);
+			path = DO_NOT_MODIFY;
+			sourceTree = "<group>";
+		};
 		996B849B299990A900133037 = {
 			isa = PBXGroup;
 			children = (
@@ -118,14 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				996B84AB299990A900133037 /* ViewController.swift */,
-				99CF2AA729B0168700B4973F /* Constants.swift */,
-				996B84D7299994A300133037 /* LetterCell.swift */,
+				6B5B85FA2E0221CA00816BFC /* DO_NOT_MODIFY */,
 				9953C05429A40AC700247C5B /* BoardController.swift */,
-				9953C05629A422C200247C5B /* WordGenerator.swift */,
-				991CEC0529999E2A0095F025 /* KeyboardCell.swift */,
-				991CEC0729999ECD0095F025 /* KeyboardController.swift */,
 				996B84B5299990AA00133037 /* Info.plist */,
-				99CF2AA429B0156100B4973F /* DO_NOT_MODIFY */,
 			);
 			path = Wordle;
 			sourceTree = "<group>";
@@ -145,21 +166,6 @@
 				996B84CA299990AA00133037 /* WordleUITestsLaunchTests.swift */,
 			);
 			path = WordleUITests;
-			sourceTree = "<group>";
-		};
-		99CF2AA429B0156100B4973F /* DO_NOT_MODIFY */ = {
-			isa = PBXGroup;
-			children = (
-				996B84B2299990AA00133037 /* LaunchScreen.storyboard */,
-				996B84B0299990AA00133037 /* Assets.xcassets */,
-				996B84AD299990A900133037 /* Main.storyboard */,
-				996B84A7299990A900133037 /* AppDelegate.swift */,
-				99CF2AA929B0172800B4973F /* BoardController+Extensions.swift */,
-				99CF2AAB29B0198D00B4973F /* ViewController+Extensions.swift */,
-				996B84A9299990A900133037 /* SceneDelegate.swift */,
-				99CF2AA529B0157B00B4973F /* KeyboardController+Extensions.swift */,
-			);
-			path = DO_NOT_MODIFY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +232,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					996B84A3299990A900133037 = {
 						CreatedOnToolsVersion = 14.1;
@@ -266,9 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996B84B4299990AA00133037 /* LaunchScreen.storyboard in Resources */,
-				996B84B1299990AA00133037 /* Assets.xcassets in Resources */,
-				996B84AF299990A900133037 /* Main.storyboard in Resources */,
+				6B5B85FB2E0221CB00816BFC /* LaunchScreen.storyboard in Resources */,
+				6B5B85FC2E0221CB00816BFC /* Assets.xcassets in Resources */,
+				6B5B85FD2E0221CB00816BFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +299,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5B85FE2E0221CB00816BFC /* BoardController+Extensions.swift in Sources */,
+				6B5B85FF2E0221CB00816BFC /* KeyboardController.swift in Sources */,
+				6B5B86002E0221CB00816BFC /* ViewController+Extensions.swift in Sources */,
+				6B5B86012E0221CB00816BFC /* KeyboardController+Extensions.swift in Sources */,
+				6B5B86022E0221CB00816BFC /* SettingsManager.swift in Sources */,
+				6B5B86032E0221CB00816BFC /* Constants.swift in Sources */,
+				6B5B86042E0221CB00816BFC /* SceneDelegate.swift in Sources */,
+				6B5B86052E0221CB00816BFC /* AppDelegate.swift in Sources */,
+				6B5B86062E0221CB00816BFC /* LetterCell.swift in Sources */,
+				6B5B86072E0221CB00816BFC /* SettingsViewController.swift in Sources */,
+				6B5B86082E0221CB00816BFC /* WordGenerator.swift in Sources */,
+				6B5B86092E0221CB00816BFC /* KeyboardCell.swift in Sources */,
 				996B84AC299990A900133037 /* ViewController.swift in Sources */,
-				99CF2AAA29B0172800B4973F /* BoardController+Extensions.swift in Sources */,
-				9953C05729A422C200247C5B /* WordGenerator.swift in Sources */,
-				991CEC0829999ECD0095F025 /* KeyboardController.swift in Sources */,
-				99CF2AAC29B0198D00B4973F /* ViewController+Extensions.swift in Sources */,
 				9953C05529A40AC700247C5B /* BoardController.swift in Sources */,
-				996B84A8299990A900133037 /* AppDelegate.swift in Sources */,
-				99CF2AA829B0168700B4973F /* Constants.swift in Sources */,
-				991CEC0629999E2A0095F025 /* KeyboardCell.swift in Sources */,
-				996B84AA299990A900133037 /* SceneDelegate.swift in Sources */,
-				99CF2AA629B0157B00B4973F /* KeyboardController+Extensions.swift in Sources */,
-				996B84D8299994A300133037 /* LetterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,20 +349,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		996B84AD299990A900133037 /* Main.storyboard */ = {
+		6B5B85F12E0221CA00816BFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				996B84AE299990A900133037 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		996B84B2299990AA00133037 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				996B84B3299990AA00133037 /* Base */,
+				6B5B85F02E0221CA00816BFC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6B5B85F42E0221CA00816BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5B85F32E0221CA00816BFC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,6 +404,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -456,6 +465,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -531,7 +541,6 @@
 		996B84D2299990AA00133037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -550,7 +559,6 @@
 		996B84D3299990AA00133037 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -569,7 +577,6 @@
 		996B84D5299990AA00133037 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -586,7 +593,6 @@
 		996B84D6299990AA00133037 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
